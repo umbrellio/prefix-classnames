@@ -1,5 +1,8 @@
 # @umbrellio/prefix-classnames
 
+[![Coverage Status](https://coveralls.io/repos/github/umbrellio/prefix-classnames/badge.svg?branch=master)](https://coveralls.io/github/umbrellio/prefix-classnames?branch=master)
+[![Build Status](https://travis-ci.com/umbrellio/prefix-classnames.svg?branch=master)](https://travis-ci.com/umbrellio/prefix-classnames)
+
 This library allows adding prefixes to classes attributes of html elements.
 
 ## Install
