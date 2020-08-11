@@ -10,7 +10,7 @@ $ yarn add @umbrellio/prefix-classnames
 
 ## Usage
 
-Imported fromt the library function takes one argument which will be the prefix for classes. Returns function which takes any number of arguments which can be a string, an object or an array and returns the string with the prefix.
+Imported from the library function takes one argument which will be the prefix for classes. Returns function which takes any number of arguments which can be a string, an object or an array and returns the string with the prefix.
 
 ```js
 classnames(prefix: String): (...args: String | Object | Array): String => result
@@ -48,7 +48,7 @@ Usage with React component
 ```js
 import classnames from "@umbrellio/prefix-classnames"
 
-const cn = classnames("super-puper__");
+const cn = classnames("super-prefix__");
 
 class Button extends React.Component {
   // ...

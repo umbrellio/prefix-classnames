@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Prefix classnames library",
   "repository": "git@github.com:umbrellio/prefix-classnames.git",
+  "homepage": "https://github.com/umbrellio/prefix-classnames",
   "main": "dist/prefix-classnames.cjs.js",
   "modules": "dist/prefix-classnames.es.js",
   "unpkg": "dist/prefix-classnames.iife.js",
@@ -11,7 +12,8 @@
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "classnames": "^2.2.6"
