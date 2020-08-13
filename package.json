@@ -9,6 +9,7 @@
   "unpkg": "dist/prefix-classnames.iife.js",
   "author": "Dmitry Tysky",
   "license": "MIT",
+  "prepublishOnly": "yarn run build",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint .",
