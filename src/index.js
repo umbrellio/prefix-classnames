@@ -2,7 +2,7 @@ import cn from "classnames"
 
 const mapKeys = (obj, prefix) => {
   const mappedEntries = Object.entries(obj).map(([key, val]) => ([`${prefix}${key}`, val]))
-  return Object.fromEntries(mappedEntries)
+  return mappedEntries.reduce((acc, [key, val]) => ({ ...acc, [key]: val }), {})
 }
 
 const addPrefix = (classes, prefix) => {

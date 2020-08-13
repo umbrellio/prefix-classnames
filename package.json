@@ -1,6 +1,6 @@
 {
   "name": "@umbrellio/prefix-classnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prefix classnames library",
   "repository": "git@github.com:umbrellio/prefix-classnames.git",
   "homepage": "https://github.com/umbrellio/prefix-classnames",
