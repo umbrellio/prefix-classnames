@@ -65,3 +65,20 @@ class Button extends React.Component {
   }
 }
 ```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/umbrellio/prefix-classnames.
+
+## License
+
+Released under MIT License.
+
+## Authors
+
+Created by [Dmitry Tysky](https://github.com/tysky).
+
+<a href="https://github.com/umbrellio/">
+<img style="float: left;" src="https://umbrellio.github.io/Umbrellio/supported_by_umbrellio.svg" alt="Supported by Umbrellio" width="439" height="72">
+</a>
+
